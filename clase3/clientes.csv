@@ -1,0 +1,6 @@
+idCliente,nombre,apellido,dni,telefono,email,fechaAlta
+1,Lucía,González,30123456,1123456789,lucia.gonzalez@mail.com,2024-05-12
+2,Martín,Pérez,28987654,1139876543,martin.perez@mail.com,2024-06-01
+3,Sofía,Ramírez,32555444,1144455566,sofia.ramirez@mail.com,2024-06-15
+4,Carlos,López,27666777,1155566677,carlos.lopez@mail.com,2024-06-20
+5,Ana,Martínez,33444555,1166677788,ana.martinez@mail.com,2024-06-25
