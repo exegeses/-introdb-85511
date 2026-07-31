@@ -45,3 +45,22 @@ Uso de BETWEEN
     SELECT nombre, apellido, fechaAlta  
       FROM clientes  
       WHERE fechaAlta BETWEEN '2023-01-01' AND '2023-12-31'
+
+Operador IN()
+
+    SELECT producto, precio    
+      FROM productos    
+      WHERE idMarca IN(15, 17);  
+
+    SELECT *   
+      FROM clientes    
+      WHERE apellido IN('lopez', 'perez');  
+
+Resumen de la sintáxis: 
+
+    SELECT [*, campo, campo]    
+      FROM [tabla]    
+      WHERE condicion  
+        [ AND condicion ]  
+        [ OR condicion ]  
+      ORDER BY [campo];  
